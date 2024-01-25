@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        
+            <!-- Formulario de Usuario -->
+<form id="formularioUsuario">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+  
+    <label for="apellido">Apellido:</label>
+    <input type="text" id="apellido" name="apellido" required>
+  
+    <label for="telefono">Teléfono:</label>
+    <input type="tel" id="telefono" name="telefono" required>
+  
+    <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+    <input type="date" id="fechaNacimiento" name="fechaNacimiento" required>
+  
+    <button type="button" onclick="mostrarDatosUsuario()">Mostrar Datos Usuario</button>
+  </form>
+
+                <!-- Formulario de PDF -->
+<form id="formularioPDF">
+    <label for="tituloPDF">Título:</label>
+    <input type="text" id="tituloPDF" name="tituloPDF" required>
+  
+    <label for="archivoPDF">Archivo PDF:</label>
+    <input type="file" id="archivoPDF" name="archivoPDF" accept=".pdf" required>
+  
+    <button type="button" onclick="mostrarDatosPDF()">Mostrar Datos PDF</button>
+  </form>
+  
+       
+    <div id="datosContainer"></div>
+
+    <div id="carruselContainer">
+        <img src="https://img.freepik.com/foto-gratis/monstera-deliciosa-planta-maceta_53876-133119.jpg?size=338&ext=jpg&ga=GA1.1.1412446893.1705881600&semt=sph" alt="Imagen 1" class="carruselImage" id="carruselImage1">
+        <img src="https://img.freepik.com/foto-gratis/monstera-deliciosa-planta-maceta_53876-133119.jpg?size=338&ext=jpg&ga=GA1.1.1412446893.1705881600&semt=sph" alt="Imagen 2" class="carruselImage" id="carruselImage2">
+        <img src="https://img.freepik.com/foto-gratis/monstera-deliciosa-planta-maceta_53876-133119.jpg?size=338&ext=jpg&ga=GA1.1.1412446893.1705881600&semt=sph" alt="Imagen 3" class="carruselImage" id="carruselImage3">
+        <img src="https://img.freepik.com/foto-gratis/monstera-deliciosa-planta-maceta_53876-133119.jpg?size=338&ext=jpg&ga=GA1.1.1412446893.1705881600&semt=sph" alt="Imagen 4" class="carruselImage" id="carruselImage4">
+        <img src="https://img.freepik.com/foto-gratis/monstera-deliciosa-planta-maceta_53876-133119.jpg?size=338&ext=jpg&ga=GA1.1.1412446893.1705881600&semt=sph" alt="Imagen 5" class="carruselImage" id="carruselImage5">
+    </div>
+
+    </main>
+
+<script src="/Main.js"></script>
+<script src="/carrusel.js"></script>
+</body>
+</html>

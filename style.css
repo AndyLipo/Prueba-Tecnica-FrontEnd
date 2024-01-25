@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  #carruselImage1{
+    width: 150px;
+  }
+  #carruselImage2{
+    width: 150px;
+  }
+  #carruselImage3{
+    width: 500px;
+  }
+  #carruselImage4{
+    width: 150px;
+  }
+  #carruselImage5{
+    width: 150px;
+  }
+  
+  .carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .carousel {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .carousel img {
+    width: 150px;
+    height: auto;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel img:nth-child(3) {
+    width: 500px;
+  }
+  
+  
